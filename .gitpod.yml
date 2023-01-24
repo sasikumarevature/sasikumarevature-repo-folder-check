@@ -1,0 +1,5 @@
+tasks:
+  - init: git remote set-url origin git@github.com:sasikumarevature/sasikumarevature-repo-folder-check.git && sed "s/\r$//" commit-command.sh | bash
+vscode:
+ extensions:
+   - kyntrack.gitpod-plugin
